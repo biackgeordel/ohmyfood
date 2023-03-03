@@ -59,7 +59,7 @@ function full() {
       console.log(event.target.dataset.id);
       const id = event.target.dataset.id;
 
-      location.assign(`/resto.html?id=${id}`);
+      location.assign(`./resto.html?id=${id}`);
     });
   });
 }
