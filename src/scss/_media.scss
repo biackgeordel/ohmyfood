@@ -1,0 +1,21 @@
+@mixin xl() {
+  @media screen and (max-width: 1030px) {
+    @content;
+  }
+}
+@mixin sm() {
+  @media screen and (max-width: 560px) {
+    @content;
+  }
+}
+
+@mixin intermediare {
+  @media screen and (max-width: 840px) {
+    @content;
+  }
+}
+@mixin lg() {
+  @media screen and (max-width: 1500px) {
+    @content;
+  }
+}

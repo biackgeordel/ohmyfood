@@ -1,0 +1,47 @@
+:root {
+  font-size: 62.5%;
+}
+* {
+  font-family: var(--font-family);
+}
+p,
+a,
+div,
+span {
+  font-size: 1.6rem;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+div,
+a,
+input,
+span {
+  color: var(--color-text);
+  font-family: var(--font-family);
+}
+h2,
+h3,
+h4 {
+  // font-size: 2.5rem;
+  padding: 2rem;
+  font-weight: 700;
+}
+button {
+  // font-size: 1.6rem;
+}
+ul {
+  li {
+    list-style: none;
+    padding: 2rem;
+  }
+}

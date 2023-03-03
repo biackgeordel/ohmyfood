@@ -1,0 +1,41 @@
+{
+  "name": "projetohmyfood",
+  "version": "1.0.0",
+  "description": "projet ohmyfood en javascript",
+  "main": "babel.config.js",
+  "scripts": {
+    "dev": "webpack --watch --node-env=development",
+    "prod": "webpack --watch --node-env=production",
+    "start": "webpack serve --node-env=development"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "@squoosh/lib": "^0.5.3",
+    "babel-loader": "^9.1.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.3",
+    "css-minimizer-webpack-plugin": "^4.2.2",
+    "html-webpack-plugin": "^5.5.0",
+    "image-minimizer-webpack-plugin": "^3.8.1",
+    "imagemin": "^8.0.1",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-svgo": "^10.0.1",
+    "mini-css-extract-plugin": "^2.7.2",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "smart-webcomponents": "^15.0.0"
+  }
+}
